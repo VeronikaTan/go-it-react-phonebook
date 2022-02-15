@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/VeronikaTan/go-it-react-phonebook/static/css/main.1890458f.css",
+    "main.js": "/VeronikaTan/go-it-react-phonebook/static/js/main.b3209d4f.js",
+    "index.html": "/VeronikaTan/go-it-react-phonebook/index.html",
+    "main.1890458f.css.map": "/VeronikaTan/go-it-react-phonebook/static/css/main.1890458f.css.map",
+    "main.b3209d4f.js.map": "/VeronikaTan/go-it-react-phonebook/static/js/main.b3209d4f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1890458f.css",
+    "static/js/main.b3209d4f.js"
+  ]
+}
