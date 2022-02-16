@@ -2,7 +2,7 @@
   "name": "go-it-react-phonebook",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/VeronikaTan/go-it-react-phonebook/",
+  "homepage": "https://veronikatan.io/go-it-react-phonebook/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
