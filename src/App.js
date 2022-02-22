@@ -42,12 +42,21 @@ class App extends Component {
   };
 
   getFilteredContacs = () => {
-    const { contacts, filter } = this.state;
 
-    return contacts.filter((e) => {
-      return e.name.toLowerCase().includes(filter.toLowerCase());
-    });
-  };
+ const { filter, contacts } = this.state;
+    const normalizeFilter = filter.toLowerCase();
+    const contactsList = contacts.filter(contact => contact.name.toLowerCase().includes(normalizeFilter))
+    return contactsList;  };
+
+    // const { contacts, filter } = this.state;
+
+    // return contacts.filter((e) => {
+    //   return e.name.toLowerCase().includes(filter.toLowerCase());
+    // });
+  // };
+
+
+
 
   render() {
     const contactsToShow = this.getFilteredContacs();

@@ -15,6 +15,10 @@ function ContactList({ contactsList, deleteContactBtn }) {
   return <ul>{contacts}</ul>;
 }
 
+ContactList.defaultProps = {
+  contactsList: []
+}
+
 ContactList.propTypes = {
   contactsList: PropTypes.arrayOf(
     PropTypes.exact({
